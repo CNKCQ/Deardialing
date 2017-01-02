@@ -10,8 +10,11 @@ Deardialing is a sample iOS app created with iOS.
 ## Getting Started
 
 To get started and run the app, you need to follow these simple steps:
+
 1. OS X 10.11 or newer, Xcode 8.
+
 2. Open the Deardialing.xcworkspace in Xcode.
+
 3. You're all set! Run Deardialing on your iPhone or the iOS Simulator.
 
 ## Compatibility
