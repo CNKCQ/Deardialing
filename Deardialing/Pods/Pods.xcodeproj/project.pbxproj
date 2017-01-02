@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03141771231498E20C3058324607C640 /* FaceAware-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 838F598B9343DFD08542B999C824D182 /* FaceAware-dummy.m */; };
+		158CDB2F86269D3D7EBA0D1B55C40F15 /* Pods-dialing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9DC121FA2879A8D204AA9C2028591D3 /* Pods-dialing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C2164E8F60BCD2B17B5B2F607A8E048 /* FaceAware-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C51C935796F9168179C35FC48DD9308 /* FaceAware-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		302BA79F7DBB6B6E09EC10F46AA6903D /* UIImageView+FaceAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F55AD3F57F3C6791927CF86ECF470C7 /* UIImageView+FaceAware.swift */; };
+		3543AAF1BBA87BC95BF82121C458A638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		444367928604DC4470ED3EFF34C9463D /* Pods-calling-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED02E6BB38716791D54EBC515C7AFC4 /* Pods-calling-dummy.m */; };
+		4C1B7E58795293FF98B996805D5CF66D /* Pods-calling-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE103313827B3BF2E720548AD8786326 /* Pods-calling-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FFA2DF9FC7DBC7B6E1931194CB5EB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		677D4966768DDF94CC79D6C6A6F66F4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8F7817E878AB139C18DAE8F644A76F47 /* Pods-dialing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BB32AF3FF09B83B747F6CAC01F7B9D /* Pods-dialing-dummy.m */; };
+		8FF4648CCAEF65B344F015DEE7C3A991 /* Pods-Deardialing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F755C0BB560DF2474B4330248FFC9B5 /* Pods-Deardialing-dummy.m */; };
+		B07902977385F52BB9C7DF3637393436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BD26A33E2D2DA0F8EF77E5BE7A28DB0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EA69AABB5988937F6689011442D51B85 /* Pods-Dialkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 183CC5A2E3295FA86CD83F4996574845 /* Pods-Dialkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD89EC8D21D75F6130DB08721BFEFD4 /* Pods-Deardialing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C16D7E4517BEC839F61FD06A4F21565D /* Pods-Deardialing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAACF84B8E3BBE8CFB42DBC854DAB99C /* Pods-Dialkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ECE2850BDBF155F1C3D84FD800F54A /* Pods-Dialkit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B232642B35190B2BC537BDD48C2A75D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C0D4D60FC8558D0199CE0C958E22855;
+			remoteInfo = FaceAware;
+		};
+		C3392518650AEACB7F24F75AA8CFD7AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C0D4D60FC8558D0199CE0C958E22855;
+			remoteInfo = FaceAware;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0422DD4A87BCE382D5E3343193248E33 /* Pods_calling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_calling.framework; path = "Pods-calling.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		056B80F08B892B4FA8D567C4BB2A2B0F /* Pods-Dialkit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dialkit-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E5A1C75E810D7649F67383C443AEB81 /* FaceAware-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaceAware-prefix.pch"; sourceTree = "<group>"; };
+		0F755C0BB560DF2474B4330248FFC9B5 /* Pods-Deardialing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Deardialing-dummy.m"; sourceTree = "<group>"; };
+		113F4F8C21C1A04B97494BF0BFF2622B /* Pods-Dialkit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dialkit-resources.sh"; sourceTree = "<group>"; };
+		137D2355F2BACAC1C004D03063F4B047 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145131627E4D27E27E45A02672C56FB3 /* FaceAware.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FaceAware.modulemap; sourceTree = "<group>"; };
+		183CC5A2E3295FA86CD83F4996574845 /* Pods-Dialkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dialkit-umbrella.h"; sourceTree = "<group>"; };
+		1982A5115F2C302731C14E5B345DF242 /* FaceAware.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FaceAware.framework; path = FaceAware.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE0D52647EE38824ED2E7FAE8398982 /* Pods-Deardialing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Deardialing.release.xcconfig"; sourceTree = "<group>"; };
+		28262FFBA30F5AA265DF1FA5A9F73E3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CD06EC7298D994DAB499673439782A /* Pods-Deardialing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Deardialing.debug.xcconfig"; sourceTree = "<group>"; };
+		2AACE8F1653AE6892CF3ED862828BC45 /* Pods-dialing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-dialing.modulemap"; sourceTree = "<group>"; };
+		2CD807DFA4614EAC522CDE2485A3F8D9 /* Pods-Deardialing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Deardialing-acknowledgements.plist"; sourceTree = "<group>"; };
+		41BB32AF3FF09B83B747F6CAC01F7B9D /* Pods-dialing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dialing-dummy.m"; sourceTree = "<group>"; };
+		472D47867CFE12382659DB91B7FC9860 /* Pods-calling-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-calling-resources.sh"; sourceTree = "<group>"; };
+		4C51C935796F9168179C35FC48DD9308 /* FaceAware-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaceAware-umbrella.h"; sourceTree = "<group>"; };
+		4E04FDB3299DC87529A683B4EC35A5A7 /* Pods-Dialkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dialkit.debug.xcconfig"; sourceTree = "<group>"; };
+		4EEA9A84E3CC17F73A5391D6CC1660F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4DBFDB6189708F518FEF654108D776 /* Pods-calling-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-calling-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57BA1D50F900BDEE7F5F4EDE0F7C66CD /* Pods-Dialkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dialkit.release.xcconfig"; sourceTree = "<group>"; };
+		65ECE2850BDBF155F1C3D84FD800F54A /* Pods-Dialkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dialkit-dummy.m"; sourceTree = "<group>"; };
+		66F14EA195CDDD471DA7FA94AC05A1A6 /* Pods-calling.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-calling.modulemap"; sourceTree = "<group>"; };
+		6ED02E6BB38716791D54EBC515C7AFC4 /* Pods-calling-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calling-dummy.m"; sourceTree = "<group>"; };
+		77465BD4EAF2E286A8C463139EF695B8 /* Pods-calling-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calling-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F55AD3F57F3C6791927CF86ECF470C7 /* UIImageView+FaceAware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+FaceAware.swift"; path = "FaceAware/UIImageView+FaceAware.swift"; sourceTree = "<group>"; };
+		838F598B9343DFD08542B999C824D182 /* FaceAware-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FaceAware-dummy.m"; sourceTree = "<group>"; };
+		8B841274D51B064BDC64B6F7C5B49177 /* Pods-Deardialing-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Deardialing-frameworks.sh"; sourceTree = "<group>"; };
+		8C5BBDBEA17B5B3B77880C1E4EA88B53 /* Pods-calling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calling.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F799DB2F56A22A0491A008F62760B2 /* Pods-dialing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dialing.debug.xcconfig"; sourceTree = "<group>"; };
+		A0A9E30B060E2909C9F6C569473934BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67B5A3DCE60275166DA57891CBAE742 /* Pods-dialing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dialing-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9C495F50BEF2639B47CE7391C03759B /* Pods-Deardialing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Deardialing-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C16D7E4517BEC839F61FD06A4F21565D /* Pods-Deardialing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Deardialing-umbrella.h"; sourceTree = "<group>"; };
+		C5146EC649624C4E7788585B8E073377 /* Pods-Deardialing-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Deardialing-resources.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE939B59942071F4BA75CA9D80FE60A5 /* Pods-Dialkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Dialkit.modulemap"; sourceTree = "<group>"; };
+		D1FD3F7E526BE96AE2D886FF36884743 /* Pods-dialing-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dialing-resources.sh"; sourceTree = "<group>"; };
+		D59A746D835E8B1CAB314D5DCB354D30 /* FaceAware.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceAware.xcconfig; sourceTree = "<group>"; };
+		DDAE1AE688C51E5360521F82B9E8DF9B /* Pods_dialing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dialing.framework; path = "Pods-dialing.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1123CFD01A215C766E3A5BFFB32558 /* Pods_Dialkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Dialkit.framework; path = "Pods-Dialkit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59CE426E054A8F521EBF0A5F702EF61 /* Pods_Deardialing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Deardialing.framework; path = "Pods-Deardialing.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E741DFE0EF8F25D887B89C1D7307375D /* Pods-dialing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dialing-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8494F32313D10D371CE0044F77DDFD2 /* Pods-Dialkit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dialkit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA12CEC4B1FCB7CBE76AACB406EB76B8 /* Pods-dialing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dialing.release.xcconfig"; sourceTree = "<group>"; };
+		EB3483ADB47FB5453CC8BC0B0F602800 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC044A1B9F457566B2B91B2F2BCE5FC1 /* Pods-calling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calling.debug.xcconfig"; sourceTree = "<group>"; };
+		F9DC121FA2879A8D204AA9C2028591D3 /* Pods-dialing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dialing-umbrella.h"; sourceTree = "<group>"; };
+		FE103313827B3BF2E720548AD8786326 /* Pods-calling-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calling-umbrella.h"; sourceTree = "<group>"; };
+		FE9CB048471E0D221A910B6BCC05B559 /* Pods-Deardialing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Deardialing.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A155A5C5D2363F7BC309E4F9DC10400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FFA2DF9FC7DBC7B6E1931194CB5EB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3788D4A527052E5025945BF6FD8746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677D4966768DDF94CC79D6C6A6F66F4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3685A384B48FD5DA2E52ADF3C109E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD26A33E2D2DA0F8EF77E5BE7A28DB0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B874BAD3CDD2365EF5B72C1656A0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3543AAF1BBA87BC95BF82121C458A638 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2696C188520013603A2BB84840D30BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07902977385F52BB9C7DF3637393436 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		455135516B0CA8EB8F906BFB0B5A57DD /* Pods-Deardialing */ = {
+			isa = PBXGroup;
+			children = (
+				EB3483ADB47FB5453CC8BC0B0F602800 /* Info.plist */,
+				FE9CB048471E0D221A910B6BCC05B559 /* Pods-Deardialing.modulemap */,
+				A9C495F50BEF2639B47CE7391C03759B /* Pods-Deardialing-acknowledgements.markdown */,
+				2CD807DFA4614EAC522CDE2485A3F8D9 /* Pods-Deardialing-acknowledgements.plist */,
+				0F755C0BB560DF2474B4330248FFC9B5 /* Pods-Deardialing-dummy.m */,
+				8B841274D51B064BDC64B6F7C5B49177 /* Pods-Deardialing-frameworks.sh */,
+				C5146EC649624C4E7788585B8E073377 /* Pods-Deardialing-resources.sh */,
+				C16D7E4517BEC839F61FD06A4F21565D /* Pods-Deardialing-umbrella.h */,
+				28CD06EC7298D994DAB499673439782A /* Pods-Deardialing.debug.xcconfig */,
+				1FE0D52647EE38824ED2E7FAE8398982 /* Pods-Deardialing.release.xcconfig */,
+			);
+			name = "Pods-Deardialing";
+			path = "Target Support Files/Pods-Deardialing";
+			sourceTree = "<group>";
+		};
+		61FB9A9800DD7CF70C6BEF0E9F667E4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				145131627E4D27E27E45A02672C56FB3 /* FaceAware.modulemap */,
+				D59A746D835E8B1CAB314D5DCB354D30 /* FaceAware.xcconfig */,
+				838F598B9343DFD08542B999C824D182 /* FaceAware-dummy.m */,
+				0E5A1C75E810D7649F67383C443AEB81 /* FaceAware-prefix.pch */,
+				4C51C935796F9168179C35FC48DD9308 /* FaceAware-umbrella.h */,
+				137D2355F2BACAC1C004D03063F4B047 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FaceAware";
+			sourceTree = "<group>";
+		};
+		6D2BF4E23779E1909177A1C5C74B8CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1982A5115F2C302731C14E5B345DF242 /* FaceAware.framework */,
+				0422DD4A87BCE382D5E3343193248E33 /* Pods_calling.framework */,
+				E59CE426E054A8F521EBF0A5F702EF61 /* Pods_Deardialing.framework */,
+				DDAE1AE688C51E5360521F82B9E8DF9B /* Pods_dialing.framework */,
+				DF1123CFD01A215C766E3A5BFFB32558 /* Pods_Dialkit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CE20D6827A70D95B891AAE5ABEAC526A /* Pods */,
+				6D2BF4E23779E1909177A1C5C74B8CCD /* Products */,
+				BB3112879766553139B2A97AA4B06389 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		873615D80482D81C3EBC19209A6E1426 /* Pods-dialing */ = {
+			isa = PBXGroup;
+			children = (
+				28262FFBA30F5AA265DF1FA5A9F73E3E /* Info.plist */,
+				2AACE8F1653AE6892CF3ED862828BC45 /* Pods-dialing.modulemap */,
+				A67B5A3DCE60275166DA57891CBAE742 /* Pods-dialing-acknowledgements.markdown */,
+				E741DFE0EF8F25D887B89C1D7307375D /* Pods-dialing-acknowledgements.plist */,
+				41BB32AF3FF09B83B747F6CAC01F7B9D /* Pods-dialing-dummy.m */,
+				D1FD3F7E526BE96AE2D886FF36884743 /* Pods-dialing-resources.sh */,
+				F9DC121FA2879A8D204AA9C2028591D3 /* Pods-dialing-umbrella.h */,
+				95F799DB2F56A22A0491A008F62760B2 /* Pods-dialing.debug.xcconfig */,
+				EA12CEC4B1FCB7CBE76AACB406EB76B8 /* Pods-dialing.release.xcconfig */,
+			);
+			name = "Pods-dialing";
+			path = "Target Support Files/Pods-dialing";
+			sourceTree = "<group>";
+		};
+		B33CC8AF67033421A01D81F1F792A6E2 /* FaceAware */ = {
+			isa = PBXGroup;
+			children = (
+				7F55AD3F57F3C6791927CF86ECF470C7 /* UIImageView+FaceAware.swift */,
+				61FB9A9800DD7CF70C6BEF0E9F667E4F /* Support Files */,
+			);
+			name = FaceAware;
+			path = FaceAware;
+			sourceTree = "<group>";
+		};
+		BB3112879766553139B2A97AA4B06389 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDC83D6102E28D854F147AEE2870DC8A /* Pods-calling */,
+				455135516B0CA8EB8F906BFB0B5A57DD /* Pods-Deardialing */,
+				873615D80482D81C3EBC19209A6E1426 /* Pods-dialing */,
+				C03F752481515F1513A8194425915813 /* Pods-Dialkit */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDC83D6102E28D854F147AEE2870DC8A /* Pods-calling */ = {
+			isa = PBXGroup;
+			children = (
+				4EEA9A84E3CC17F73A5391D6CC1660F1 /* Info.plist */,
+				66F14EA195CDDD471DA7FA94AC05A1A6 /* Pods-calling.modulemap */,
+				4F4DBFDB6189708F518FEF654108D776 /* Pods-calling-acknowledgements.markdown */,
+				77465BD4EAF2E286A8C463139EF695B8 /* Pods-calling-acknowledgements.plist */,
+				6ED02E6BB38716791D54EBC515C7AFC4 /* Pods-calling-dummy.m */,
+				472D47867CFE12382659DB91B7FC9860 /* Pods-calling-resources.sh */,
+				FE103313827B3BF2E720548AD8786326 /* Pods-calling-umbrella.h */,
+				EC044A1B9F457566B2B91B2F2BCE5FC1 /* Pods-calling.debug.xcconfig */,
+				8C5BBDBEA17B5B3B77880C1E4EA88B53 /* Pods-calling.release.xcconfig */,
+			);
+			name = "Pods-calling";
+			path = "Target Support Files/Pods-calling";
+			sourceTree = "<group>";
+		};
+		C03F752481515F1513A8194425915813 /* Pods-Dialkit */ = {
+			isa = PBXGroup;
+			children = (
+				A0A9E30B060E2909C9F6C569473934BE /* Info.plist */,
+				CE939B59942071F4BA75CA9D80FE60A5 /* Pods-Dialkit.modulemap */,
+				E8494F32313D10D371CE0044F77DDFD2 /* Pods-Dialkit-acknowledgements.markdown */,
+				056B80F08B892B4FA8D567C4BB2A2B0F /* Pods-Dialkit-acknowledgements.plist */,
+				65ECE2850BDBF155F1C3D84FD800F54A /* Pods-Dialkit-dummy.m */,
+				113F4F8C21C1A04B97494BF0BFF2622B /* Pods-Dialkit-resources.sh */,
+				183CC5A2E3295FA86CD83F4996574845 /* Pods-Dialkit-umbrella.h */,
+				4E04FDB3299DC87529A683B4EC35A5A7 /* Pods-Dialkit.debug.xcconfig */,
+				57BA1D50F900BDEE7F5F4EDE0F7C66CD /* Pods-Dialkit.release.xcconfig */,
+			);
+			name = "Pods-Dialkit";
+			path = "Target Support Files/Pods-Dialkit";
+			sourceTree = "<group>";
+		};
+		CE20D6827A70D95B891AAE5ABEAC526A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B33CC8AF67033421A01D81F1F792A6E2 /* FaceAware */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		154A713A46FC099290C539D8AA79B6FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1B7E58795293FF98B996805D5CF66D /* Pods-calling-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270029A18A58C366D47636043A983C0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA69AABB5988937F6689011442D51B85 /* Pods-Dialkit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0AC73E729AAE80CAB37E9B7958E3A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2164E8F60BCD2B17B5B2F607A8E048 /* FaceAware-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3ADE2C3405DD66BD9C8483CBBAF9885 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD89EC8D21D75F6130DB08721BFEFD4 /* Pods-Deardialing-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE425E1D802669B069285F2F17D33EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158CDB2F86269D3D7EBA0D1B55C40F15 /* Pods-dialing-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6015D622F4C1749A8BBA918ED330386E /* Pods-Dialkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E91D7D215DA6A2FF00720A42C85B67 /* Build configuration list for PBXNativeTarget "Pods-Dialkit" */;
+			buildPhases = (
+				D34DF325B696F19784ED7906620F74C6 /* Sources */,
+				6A3788D4A527052E5025945BF6FD8746 /* Frameworks */,
+				270029A18A58C366D47636043A983C0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Dialkit";
+			productName = "Pods-Dialkit";
+			productReference = DF1123CFD01A215C766E3A5BFFB32558 /* Pods_Dialkit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		601FB8174A2E2CC9A5598768C708AD14 /* Pods-Deardialing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1705F662FAF54EC1224C98D4F84C9D11 /* Build configuration list for PBXNativeTarget "Pods-Deardialing" */;
+			buildPhases = (
+				713B3542DFA4BCC7578012E9438A3742 /* Sources */,
+				4A155A5C5D2363F7BC309E4F9DC10400 /* Frameworks */,
+				D3ADE2C3405DD66BD9C8483CBBAF9885 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B259B75C287AC50206786117C73D6E /* PBXTargetDependency */,
+			);
+			name = "Pods-Deardialing";
+			productName = "Pods-Deardialing";
+			productReference = E59CE426E054A8F521EBF0A5F702EF61 /* Pods_Deardialing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C0D4D60FC8558D0199CE0C958E22855 /* FaceAware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A9950655C9CBC5E137F56C6CB99862F /* Build configuration list for PBXNativeTarget "FaceAware" */;
+			buildPhases = (
+				4D9946B1B99DBCFBEF27EDC20B9173D2 /* Sources */,
+				98B874BAD3CDD2365EF5B72C1656A0D7 /* Frameworks */,
+				2B0AC73E729AAE80CAB37E9B7958E3A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceAware;
+			productName = FaceAware;
+			productReference = 1982A5115F2C302731C14E5B345DF242 /* FaceAware.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2CC99D91205502E602731EE962261C3 /* Pods-calling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28E1D019131D229149895CBD53BFB82 /* Build configuration list for PBXNativeTarget "Pods-calling" */;
+			buildPhases = (
+				B443AE23FAC1884F04DC7A63F613C96F /* Sources */,
+				6E3685A384B48FD5DA2E52ADF3C109E3 /* Frameworks */,
+				154A713A46FC099290C539D8AA79B6FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-calling";
+			productName = "Pods-calling";
+			productReference = 0422DD4A87BCE382D5E3343193248E33 /* Pods_calling.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C90FBC6D52302ED81344DF1C93393281 /* Pods-dialing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF410EF81D9905B1459E695270CB5D10 /* Build configuration list for PBXNativeTarget "Pods-dialing" */;
+			buildPhases = (
+				0AE597B577B0A00AAF719AE71DB3DE4C /* Sources */,
+				D2696C188520013603A2BB84840D30BD /* Frameworks */,
+				EFE425E1D802669B069285F2F17D33EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				307901FB625B35ADAAF1EB3B89A8CD0C /* PBXTargetDependency */,
+			);
+			name = "Pods-dialing";
+			productName = "Pods-dialing";
+			productReference = DDAE1AE688C51E5360521F82B9E8DF9B /* Pods_dialing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6D2BF4E23779E1909177A1C5C74B8CCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C0D4D60FC8558D0199CE0C958E22855 /* FaceAware */,
+				A2CC99D91205502E602731EE962261C3 /* Pods-calling */,
+				601FB8174A2E2CC9A5598768C708AD14 /* Pods-Deardialing */,
+				C90FBC6D52302ED81344DF1C93393281 /* Pods-dialing */,
+				6015D622F4C1749A8BBA918ED330386E /* Pods-Dialkit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AE597B577B0A00AAF719AE71DB3DE4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7817E878AB139C18DAE8F644A76F47 /* Pods-dialing-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9946B1B99DBCFBEF27EDC20B9173D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03141771231498E20C3058324607C640 /* FaceAware-dummy.m in Sources */,
+				302BA79F7DBB6B6E09EC10F46AA6903D /* UIImageView+FaceAware.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713B3542DFA4BCC7578012E9438A3742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF4648CCAEF65B344F015DEE7C3A991 /* Pods-Deardialing-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B443AE23FAC1884F04DC7A63F613C96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444367928604DC4470ED3EFF34C9463D /* Pods-calling-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34DF325B696F19784ED7906620F74C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAACF84B8E3BBE8CFB42DBC854DAB99C /* Pods-Dialkit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		307901FB625B35ADAAF1EB3B89A8CD0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaceAware;
+			target = 9C0D4D60FC8558D0199CE0C958E22855 /* FaceAware */;
+			targetProxy = C3392518650AEACB7F24F75AA8CFD7AD /* PBXContainerItemProxy */;
+		};
+		50B259B75C287AC50206786117C73D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaceAware;
+			target = 9C0D4D60FC8558D0199CE0C958E22855 /* FaceAware */;
+			targetProxy = 4B232642B35190B2BC537BDD48C2A75D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032874CB1C5C50C4090A70C6688F0D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC044A1B9F457566B2B91B2F2BCE5FC1 /* Pods-calling.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-calling/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calling/Pods-calling.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_calling;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30FC40681EDFE59D43450A7D7B28DBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28CD06EC7298D994DAB499673439782A /* Pods-Deardialing.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Deardialing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Deardialing/Pods-Deardialing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Deardialing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E3AAC9E1FEBD01E313C79E3847BBF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE0D52647EE38824ED2E7FAE8398982 /* Pods-Deardialing.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Deardialing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Deardialing/Pods-Deardialing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Deardialing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63AA5A14B2E293E216F446658D5985BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA12CEC4B1FCB7CBE76AACB406EB76B8 /* Pods-dialing.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-dialing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dialing/Pods-dialing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_dialing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9921CF73B596A5C5963CAC797E43957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59A746D835E8B1CAB314D5DCB354D30 /* FaceAware.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FaceAware/FaceAware-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaceAware/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FaceAware/FaceAware.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FaceAware;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C88357AF554CCEADE8CE628C9AB7DE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F799DB2F56A22A0491A008F62760B2 /* Pods-dialing.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-dialing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dialing/Pods-dialing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_dialing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D98E0AE54281B77AB8EF0BA4F3FCA42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5BBDBEA17B5B3B77880C1E4EA88B53 /* Pods-calling.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-calling/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calling/Pods-calling.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_calling;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E79EA595C59DA668463FA9D5E8781268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59A746D835E8B1CAB314D5DCB354D30 /* FaceAware.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FaceAware/FaceAware-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaceAware/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FaceAware/FaceAware.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FaceAware;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E95088520D08ED5FED4FEAA1F1A882A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57BA1D50F900BDEE7F5F4EDE0F7C66CD /* Pods-Dialkit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dialkit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dialkit/Pods-Dialkit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dialkit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F425FAED89E349AD1D3F4B1173887BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E04FDB3299DC87529A683B4EC35A5A7 /* Pods-Dialkit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dialkit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dialkit/Pods-Dialkit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dialkit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1705F662FAF54EC1224C98D4F84C9D11 /* Build configuration list for PBXNativeTarget "Pods-Deardialing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FC40681EDFE59D43450A7D7B28DBF3 /* Debug */,
+				4E3AAC9E1FEBD01E313C79E3847BBF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E91D7D215DA6A2FF00720A42C85B67 /* Build configuration list for PBXNativeTarget "Pods-Dialkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F425FAED89E349AD1D3F4B1173887BAA /* Debug */,
+				E95088520D08ED5FED4FEAA1F1A882A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A9950655C9CBC5E137F56C6CB99862F /* Build configuration list for PBXNativeTarget "FaceAware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9921CF73B596A5C5963CAC797E43957 /* Debug */,
+				E79EA595C59DA668463FA9D5E8781268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28E1D019131D229149895CBD53BFB82 /* Build configuration list for PBXNativeTarget "Pods-calling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032874CB1C5C50C4090A70C6688F0D1F /* Debug */,
+				D98E0AE54281B77AB8EF0BA4F3FCA42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF410EF81D9905B1459E695270CB5D10 /* Build configuration list for PBXNativeTarget "Pods-dialing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88357AF554CCEADE8CE628C9AB7DE4A /* Debug */,
+				63AA5A14B2E293E216F446658D5985BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

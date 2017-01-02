@@ -1,0 +1,12 @@
+PODS:
+  - FaceAware (1.1.0)
+
+DEPENDENCIES:
+  - FaceAware
+
+SPEC CHECKSUMS:
+  FaceAware: 878af999db2eb4f2bba5c84e91c77cf953a7bd0d
+
+PODFILE CHECKSUM: ce5cffe22a1e20f470630b73a71188bb20de972c
+
+COCOAPODS: 1.2.0.beta.1

@@ -1,0 +1,6 @@
+framework module Pods_Dialkit {
+  umbrella header "Pods-Dialkit-umbrella.h"
+
+  export *
+  module * { export * }
+}
