@@ -54,7 +54,7 @@ extension UITableView {
                         + "and that you registered the header/footer beforehand"
                 )
             }
-            return view
+        return view
     }
     
 }
